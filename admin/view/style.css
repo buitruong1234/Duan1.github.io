@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+header {
+    float: left;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 20px;
+    color: #eee;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #CCC;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 0px 50px;
+}
+
+td,
+th {
+    padding: 5px 10px;
+    border: 1px #CCC solid;
+}
+
+th {
+    background-color: #999;
+}
+
+table {
+    border-collapse: collapse;
+}
+.row {
+    float:left;
+    width: 100%;
+    text-align: center;
+;
+}
+.boxsp {
+    float: left;
+    min-height: 300px;
+    width: 32%;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.boxsp img {
+    width: 80%;
+    border-radius: 20px;
+  
+   
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+}
+.img img{
+    height: 200px;
+}
+.magin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.formtitle {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.formdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+.formdsloai table th {
+     padding: 20px;
+    background-color: #ccc;
+}
+.mb{
+    margin-bottom:20px;
+    
+}
+
+.mb10{
+    margin-bottom:10px;
+    
+}
+.mr{
+    margin-right: 2%;
+}
+
+.menu nav{
+  
+  padding:  0px 15px;
+
+
+}
+.menu nav li{
+  list-style-type: none;
+  display: inline;
+  padding: 0px 15px;
+}
+.menu nav li a {
+ color: #ccc;
+  text-decoration: none;
+  transition: 0.5s;
+  
+}
+.menu nav li a:hover {
+  color: white;
+  font-size:0.8vw;
+}
+
